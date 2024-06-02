@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <link rel="icon" type="image/x-icon" href="icons/favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Cormorant SC' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <p class="aw">Award winning</p>
+        <h1 class="digi">Digital Marketing Agency</h1>
+        <p class="pa">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+        <img src="icons/hero@2x.png" alt="" class="i1">
+        <button class="b" type="submit" onclick="openPopup()">Contact Us</button>
+        <div class="popup" id="popup">
+
+            <form  action="https://getform.io/f/navvngna" method="POST">
+                 <span><h3> Talk to us</h3></span>
+                 <div class="inputbox">
+                   <input type="email" class="form__input"  id="email" required="required">
+                   <span>Work email*</span>
+                 </div>
+
+                 <div class="inputbox1">
+                    <input type="text" class="form__input"  id="name" required="required">
+                    <span>First name*</span>
+                  </div>
+                 <div class="inputbox1">
+                    <input type="text" class="form__input"  id="name" required="required">
+                    <span>Last name*</span>
+                 </div>
+                  <div class="cbox">
+                    <input type="checkbox" class="forminput"  id="checkbox" required="required">
+                    <span>I agree to Fyle's terms and conditions and provide consent to send me communication.</span>
+                  </div>
+                
+                <button type="submit"  onclick="closePopup()">Contact Us</button>
+                <button class="closebtn" onclick="closePopup()">×</button>
+            </form>
+        </div>
+
+    </div>
+   
+    <div class="m2">
+        <p class="aw2">what we do</p>
+        <h1 class="digi2">Services provide for you</h1>
+        <p class="pa2">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+
+    </div>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                <img src="icons/1@2x.png" alt="Image 1">
+                <div class="overlay">
+                    <div class="text">
+                        <img src="icons/icon.svg" style="height: 30px;">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac et purus.</p>
+                        <a href="https://fylehq.com" target="_blank">READ MORE &#x2192</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                <img src="icons/2@2x.png" alt="Image 2">
+                <div class="overlay">
+                    <div class="text">
+                        <img src="icons/icon.svg" style="height: 30px;">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac et purus.</p>
+                        <a href="https://fylehq.com" target="_blank">READ MORE &#x2192</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                <img src="icons/3@2x.png" alt="Image 3">
+                <div class="overlay">
+                    <div class="text">
+                        <img src="icons/icon.svg" style="height: 30px;">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac et purus.</p>
+                        <a href="https://fylehq.com" target="_blank">READ MORE &#x2192</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" onmouseover="showOverlay(this)" onmouseout="hideOverlay(this)">
+                <img src="icons/hero@2x.png" alt="Image 4">
+                <div class="overlay">
+                    <div class="text">
+                        <img src="icons/icon.svg" style="height: 30px;">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac et purus.</p>
+                        <a href="https://fylehq.com" target="_blank">READ MORE &#x2192</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <div class="m3">
+        <p class="aw3">why choose us</p>
+        <h1 class="digi3">why we are best</h1>
+        <div class="mtext1">
+            <div><img src="icons/1.svg" style="size: 30px;">
+                <h4>Clarified Vision & Target</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quaerat voluptatum laudantium!</p>
+            </div>
+            <div><img src="icons/2.svg" style="size: 30px;">
+                <h4>High Performance</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi magnam magni dignissimos.</p>
+            </div>
+            <div><img src="icons/3.svg" style="size: 30px;">
+                <h4>Maintain Security</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laboriosam quasi consequuntur?</p>
+            </div>
+            <div><img src="icons/4.svg" style="size: 30px;">
+                <h4>Better Strategy & Quality</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolorum repellat eligendi?</p>
+            </div>
+        </div>
+        <div class="m3">
+            <p class="aw3">our project</p>
+            <h1 class="digi3">why we are best</h1>
+        </div>
+        
+            <div class="pic">
+                <img id="bannerimg" src="icons/image@2x.png" alt="">
+            </div>
+            
+            <div class="hov" >
+                <div class="flexb" onclick="changeimg('icons/2.png')">
+                    <h4>Genderless Kei – Japan’s Hot</h4>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                </div>
+                <div class="flexb" onclick="changeimg('icons/image@2x.png')">
+                    <h4>Better Strategy & Quality</h4>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                
+                </div>
+                <div class="flexb" onclick="changeimg('icons/3.png')"><h4>Genderless Kei – Japan’s Hot</h4>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p></div>
+            </div>
+        
+        </div>
+        <div class="m4">
+            <p class="aw4">experts growth</p>
+            <h1 class="digi4">our company growth</h1>
+        <div class="bx">
+            <div><img src="icons/heart (2).png" alt="" style="size: 20px;"><h1>199+</h1>
+            <p>Satisfied Customers</p></div>
+            <div><img src="icons/clock (3).png" alt="" style="size: 20px;"><h1>1591+</h1><p>Days Of Operation</p></div>
+            <div><img src="icons/Path 4402.png" alt="" style="size: 20px;"><h1>283+</h1><p>Complete Project</p></div>
+            <div><img src="icons/Path 4406.png" alt="" style="size: 20px;"><h1>75+</h1><p>Win Awards</p></div>
+        </div>
+
+        <div class="m4">
+            <p class="aw4">client's feedback</p>
+            <h1 class="digi4">people say's about us !</h1>
+            <p style="  top: -20px; width: 537px;left: 460px;">Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+            <p style="text-align: center;
+            top: -20px;
+            left: -66px;"><span style="color: #FF3147; font-weight: bold;">JANNAT TUMPA</span><span style="color: rgb(138, 138, 138);">- COO, AMERIMAR ENTERPRISES, INC.</span> </p> 
+        </div>
+        <div class="m5" style="background-color: #FF3147;;height: 250px;">
+            <img src="icons/Group 500@2x.png" alt=""style="width: 900px;
+            height: 50px;
+            top: 124px;
+            left: 268px;">
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
